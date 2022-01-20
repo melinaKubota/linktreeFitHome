@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+        /* justify-content: space-around;*/
+        justify-content: center;
+        align-items: center;
+        flex-flow: row nowrap;
+        width: 100vw;
+    background-color: #f6f6f6;
+    /* min-width: 0; */
+    /* vertical-align: baseline; */
+   
+}
+/* *, *::before, *::after {
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+} */
+/* header{
+    display: flex;
+    width: 100%;
+} */
+
+/* .link{
+  padding: 0 4px;
+  background-color: red; 
+
+    width: 100%; 
+    text-align: center;
+
+}  */
+
+/* #fitHome{
+   /*  flex: 50%;
+    padding: 0 4px;
+    margin-top: 8px;
+    vertical-align: middle;
+    background-color: green; */
+
+   /*  display: block; */
+
+
+/* #secaBarriga{
+    /* margin: auto;
+    background-color: yellow; */
+
+    /*display: block;*/
+    
+ 
+
+/* @media screen and (max-width:480px){
+    .link{
+        position: relative;
+        overflow-x: visible;
+        min-width: 0;
+    }
+} */
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin: 20px;
+    margin-right: 10px;
+}
+
+.fitHome{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+.secaBarriga{
+    width:100%;
+    height: 100%;
+}
